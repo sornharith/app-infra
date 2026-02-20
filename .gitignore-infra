@@ -1,5 +1,6 @@
 .git/
 .gitignore-app
-app-src/
-kubeconfig*
-.DS_Store
+.gitignore
+app/
+.git-infra/
+.github/workflows/ping.yaml
