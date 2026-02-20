@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: video-api
-        image: sornharith/app-test:22220184917
+        image: sornharith/app-test:22220900551
         ports:
         - containerPort: 3000
         env:
