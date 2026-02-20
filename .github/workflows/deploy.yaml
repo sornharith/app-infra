@@ -2,6 +2,7 @@ name: Build and Update Manifests
 on:
   repository_dispatch:
     types: [ build-video-api ]
+  workflow_dispatch:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
