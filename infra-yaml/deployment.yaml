@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: video-api
-        image: sornharith/app-test:22220109473
+        image: sornharith/app-test:22220124807
         ports:
         - containerPort: 3000
         # Volume mount for SeaweedFS can be added here later
