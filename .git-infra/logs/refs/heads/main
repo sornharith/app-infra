@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 db8d1af496c669ee6272b1d3598fc739309b2a15 sornharith <harith.pha@student.mahidol.edu> 1771577662 +0700	commit (initial): Initial K8s and CI setup
+db8d1af496c669ee6272b1d3598fc739309b2a15 9103a5da80954bd987a8dd9d1c83d9c27ddeb3e1 sornharith <harith.pha@student.mahidol.edu> 1771578756 +0700	commit: Added Docker Hub login and push commands
+9103a5da80954bd987a8dd9d1c83d9c27ddeb3e1 108ae7f5829a282ed780093eeac814314c643db5 sornharith <harith.pha@student.mahidol.edu> 1771579059 +0700	commit: Updated Kubernetes replicas
+108ae7f5829a282ed780093eeac814314c643db5 fd23e9c13af5b7c2bdbd1695811416364ca0cc12 sornharith <harith.pha@student.mahidol.edu> 1771579124 +0700	commit: Updated Kubernetes replicas
+fd23e9c13af5b7c2bdbd1695811416364ca0cc12 86046579b2431242e35ecf87140c3af284590730 sornharith <harith.pha@student.mahidol.edu> 1771579347 +0700	commit: Clean up cross-contaminated app files
