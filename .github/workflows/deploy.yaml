@@ -1,5 +1,7 @@
 name: Build and Update Manifests
 on:
+  push:
+    branches: [ main ]
   repository_dispatch:
     types: [ build-app ]
   workflow_dispatch:
@@ -10,6 +12,8 @@ jobs:
       - name: Checkout Application Code
         uses: actions/checkout@v4
         with:
+          # This tells GitHub to use your secret key to enter the private repo
+          token: ${{ secrets.PAT_TOKEN }} 
           repository: sornharith/app-code
           path: app-code
           
