@@ -20,7 +20,7 @@ jobs:
           
       - name: Build and Push Docker Image
         run: |
-          cd app-code/app-src
+          cd app-code/app
           docker build -t sornharith/app-test:${{ github.run_id }} .
           docker push sornharith/app-test:${{ github.run_id }}
           
