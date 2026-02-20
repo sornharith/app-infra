@@ -1,0 +1,5 @@
+.git/
+.gitignore-app
+app-src/
+kubeconfig*
+.DS_Store

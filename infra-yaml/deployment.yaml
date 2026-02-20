@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: video-api-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: video-api
+  template:
+    metadata:
+      labels:
+        app: video-api
+    spec:
+      containers:
+      - name: video-api
+        image: sornharith/app-test:latest # <--- Change to your Docker username
+        ports:
+        - containerPort: 3000
+        # Volume mount for SeaweedFS can be added here later

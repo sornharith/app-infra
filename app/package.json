@@ -1,0 +1,16 @@
+{
+  "name": "elysia-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --watch index.ts",
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "elysia": "^1.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "index.ts",
+  "type": "module"
+}
