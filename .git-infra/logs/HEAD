@@ -1,1 +1,2 @@
 0000000000000000000000000000000000000000 db8d1af496c669ee6272b1d3598fc739309b2a15 sornharith <harith.pha@student.mahidol.edu> 1771577662 +0700	commit (initial): Initial K8s and CI setup
+db8d1af496c669ee6272b1d3598fc739309b2a15 9103a5da80954bd987a8dd9d1c83d9c27ddeb3e1 sornharith <harith.pha@student.mahidol.edu> 1771578756 +0700	commit: Added Docker Hub login and push commands
