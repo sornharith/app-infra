@@ -14,7 +14,10 @@ spec:
     spec:
       containers:
       - name: video-api
-        image: sornharith/app-test:22220283162
+        image: sornharith/app-test:22220184917
         ports:
         - containerPort: 3000
+        env:
+        - name: DATABASE_URL
+          value: "postgresql://postgres:postgres@postgres-db:5432/videodb"
         # Volume mount for SeaweedFS can be added here later
